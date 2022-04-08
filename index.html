@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap" rel="stylesheet">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-group">
+        <div class="flex-container">
+            <div class="dispOutp">
+                <input type="text" name="dOutput" id="dOutput">
+            </div>
+        </div>
+        <div class="flex-container">
+            <div class="red inpNum" onclick="calFunc('C')">C</div>
+            <div class="inpNum" onclick="calFunc('←')">←</div>
+            <div class="inpNum" onclick="calFunc('.')">.</div>
+            <div class="blue inpNum" onclick="calFunc('*')">X</div>
+        </div>
+        <div class="flex-container">
+            <div class="inpNum" onclick="calFunc('7')">7</div>
+            <div class="inpNum" onclick="calFunc('8')">8</div>
+            <div class="inpNum" onclick="calFunc('9')">9</div>
+            <div class="blue inpNum" onclick="calFunc('/')">/</div>
+        </div>
+        <div class="flex-container">
+            <div class="inpNum" onclick="calFunc('4')">4</div>
+            <div class="inpNum" onclick="calFunc('5')">5</div>
+            <div class="inpNum" onclick="calFunc('6')">6</div>
+            <div class="blue inpNum" onclick="calFunc('-')">-</div>
+        </div>
+        <div class="flex-container">
+            <div class="inpNum" onclick="calFunc('1')">1</div>
+            <div class="inpNum" onclick="calFunc('2')">2</div>
+            <div class="inpNum" onclick="calFunc('3')">3</div>
+            <div class="blue inpNum" onclick="calFunc('+')">+</div>
+        </div>
+        <div class="flex-container">
+            <div class="inpNum" onclick="calFunc('0')">0</div>
+            <div class="inpNum" onclick="calFunc('00')">00</div>
+            <div  class="blue-bg flex-custom inpNum" onclick="calFunc('=')">=</div> 
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>

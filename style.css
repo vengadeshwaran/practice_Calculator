@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+}
+.flex-group{
+    background-color: #e6e4e4;
+    width: 50%;
+    margin: 0 auto;
+}
+.flex-container{
+    display: flex; 
+}
+.flex-container > .inpNum {
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+.flex-container > .inpNum:hover {
+    background-color:rgb(12, 12, 10);
+    color: white;
+}
+.flex-custom{
+    flex: none;
+    width: 40% !important;
+}
+.dispOutp{
+    margin: 10px;
+    padding: 20px;
+    font-size: 18px;
+    width: 100%;
+}
+input {
+    width: 100%;
+    border: 0px;
+    padding-top: 30px;
+    font-size: 30px;
+    background-color: rgb(236, 240, 243);
+
+}
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.blue-bg{
+    background-color: blue;
+    color: white;
+}
+
